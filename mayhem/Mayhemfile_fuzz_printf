@@ -1,0 +1,5 @@
+project: savantenvs/printf
+target: fuzz_printf
+cmds:
+  - cmd: /mayhem/fuzz_printf
+    libfuzzer: true
